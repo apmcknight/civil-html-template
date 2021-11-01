@@ -1,0 +1,136 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 0x;
+    padding: 3% 3%;
+}
+
+nav > h1{
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: .20em;
+    font-weight: bold;
+    color: green;
+}
+
+nav > ul{ 
+    width: 26%;
+    display: inline;
+    position: absolute;
+    right: 10%;
+}
+
+nav > ul > li{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline;
+    font-weight: bold;
+}
+
+footer{
+    display: block;
+    background: #1a1a1a;
+    color: #fff;
+    width: 100%;
+    height: 0x;
+    padding: 3% 3%;
+}
+
+footer > h1{
+    display: inline;
+    color: #525252;
+}
+
+footer > ul{ 
+    display: inline;
+    margin-left: 55%;
+}
+
+footer > ul > li{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    display: inline;
+    font-weight: bold;
+}
+
+.heroContent{
+    height: 100vh;
+    width: 100%;
+    background: url("/assets/images/beatrice-selly-d5YEmZknHIs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: 60% 70%;
+}
+
+.heroText{
+    position: relative;
+    left: 10%;
+    top: 30%;
+}
+
+.heroText > h1{
+    width: 65%;
+    font-size: 4.5em;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 1.5%;
+}
+
+
+.heroText > h2{
+    width: 65%;
+    font-size: 2.5em;
+    color: #000;
+    font-weight: 400;
+
+}
+
+.heroText > .btn{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+
+.btn{
+    background: #000;
+    padding: 1.5% 3.5%;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.parksContent {
+    height: 50vh;
+    width: 100%;
+    background: url("/assets/images/dollar-gill-PWZRdZuiQEA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: 40% 80%;
+    background-attachment: fixed;
+}
+
+
+.stayContent {
+    height: 70vh;
+    width: 100%;
+    background: url("/assets/images/visualsofdana-T5pL6ciEn-I-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.spendContent {
+    height: 70vh;
+    width: 100%;
+    background: url("/assets/images/eliott-reyna-jCEpN62oWL4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:right;
+    background-size: contain;
+}
